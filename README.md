@@ -1,7 +1,7 @@
 # Advent of Code 2022
 
-My solutions for Advent of Code 2022.
-Solutions are written in Python 3.11 in VSCode running on WSL.
+My solutions for Advent of Code 2022.  
+Solutions are written in Python 3.11 in VSCode running on WSL.  
 Progress:
 | Day | Part 1 | Part 2 |
 |:-:|:-:|:-:|
