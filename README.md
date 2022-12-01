@@ -5,7 +5,7 @@ Solutions are written in Python 3.11 in VSCode running on WSL.
 Progress:
 | Day | Part 1 | Part 2 |
 |:-:|:-:|:-:|
-|01|||
+|01|⭐|⭐|
 |02|||
 |03|||
 |04|||
