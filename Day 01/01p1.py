@@ -5,8 +5,8 @@ counter = 0
 max = 0
 for line in lines:
     counter = counter + 1
-    line.strip()
-    if line == "\n" or counter == len(lines):
+    line = line.strip()
+    if line == "" or counter == len(lines):
         if count > max:
             max = count
         count = 0

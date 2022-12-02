@@ -7,8 +7,8 @@ second = 0
 third = 0
 for line in lines:
     counter = counter + 1
-    line.strip()
-    if line == "\n" or counter == len(lines):
+    line = line.strip()
+    if line == "" or counter == len(lines):
         if count > first:
             third = second
             second = first
