@@ -8,9 +8,9 @@ while True:
         break
     for i in range(0, len(lines)):
         lines[i] = lines[i].strip()
-    chars1 = chars = [char for char in lines[0]]
-    chars2 = chars = [char for char in lines[1]]
-    chars3 = chars = [char for char in lines[2]]
+    chars1 = [char for char in lines[0]]
+    chars2 = [char for char in lines[1]]
+    chars3 = [char for char in lines[2]]
     commonList = list(set(chars1).intersection(list(set(chars2).intersection(chars3))))
     common = commonList[0]
     commonAscii = ord(common)
